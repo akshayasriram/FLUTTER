@@ -21,7 +21,7 @@ class Exp2bPage extends StatelessWidget {
         Column(
           children: const [Text("Item 1"), Text("Item 2"), Text("Item 3")],
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 22),
         const Text("Stack Example"),
         Expanded(
           child: Stack(
@@ -33,7 +33,7 @@ class Exp2bPage extends StatelessWidget {
               ),
               const Align(
                 alignment: Alignment.bottomRight,
-                child: Icon(Icons.star, size: 50),
+                child: Icon(Icons.star, size: 55),
               ),
             ],
           ),
