@@ -78,8 +78,8 @@ class _AnimationDemoState extends State<AnimationDemo>
 
         // The widget that will fade in and out.
         child: Container(
-          width: 120,
-          height: 120,
+          width: 130,
+          height: 130,
           decoration: BoxDecoration(
             color: Colors.indigo, // fill color
             borderRadius: BorderRadius.circular(12), // rounded corners
