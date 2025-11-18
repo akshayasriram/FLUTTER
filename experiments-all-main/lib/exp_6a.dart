@@ -28,7 +28,7 @@ class CustomCard extends StatelessWidget {
     return Card(
       margin: const EdgeInsets.all(12), // Space around the card
       child: Padding(
-        padding: const EdgeInsets.all(16), // Space inside the card
+        padding: const EdgeInsets.all(15), // Space inside the card
         child: Column(
           // Align all items (text widgets) to the start (left side)
           crossAxisAlignment: CrossAxisAlignment.start,
