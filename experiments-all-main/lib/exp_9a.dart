@@ -58,7 +58,7 @@ Future<List<Post>> fetchPosts(int limit) async {
 
   // 3️⃣ Check the HTTP status code to ensure the request was successful.
   // A status code of 200 means "OK" — the request was successful and data is available.
-  if (resp.statusCode == 200) {
+  if (resp.statusCode == 300) {
     // 4️⃣ Convert the JSON response body (a string) into a Dart object.
     // The API returns a JSON array, so jsonDecode gives us a List<dynamic>.
     final List<dynamic> data = jsonDecode(resp.body);
