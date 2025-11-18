@@ -14,7 +14,7 @@ class Exp5Page extends StatelessWidget {
           const Text("Stateful Example with setState:"),
           StatefulCounter(),
           const Divider(),
-          const Text("Provider Example:"),
+          const Text("Provider Example is:"),
           ConsumerCounter(),
         ],
       ),
