@@ -28,7 +28,7 @@ class DebugPage extends StatelessWidget {
     // and horizontally on the screen.
     // ----------------------------------------------------------
     return const Center(
-      // Text widget displays a short message to the user
+  
       // indicating where to look (Debug Console in IDE)
       child: Text('Open the Debug Console to view debugPrint output'),
     );
