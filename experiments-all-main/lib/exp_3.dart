@@ -11,7 +11,7 @@ class Exp3Page extends StatelessWidget {
     return Center(
       child: Container(
         padding: const EdgeInsets.all(20),
-        color: isLarge ? Colors.green[200] : Colors.blue[200],
+        color: isLarge ? Colors.green[300] : Colors.blue[200],
         child: Text(
           isLarge
               ? "Large Screen Layout (${size.width}px)"
