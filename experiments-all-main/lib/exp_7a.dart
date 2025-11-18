@@ -124,7 +124,7 @@ class _FormPageState extends State<FormPage> {
                   child: const Text('Submit'),
                 ),
 
-                const SizedBox(width: 12),
+                const SizedBox(width: 13),
 
                 // 🔄 Reset Button
                 OutlinedButton(
