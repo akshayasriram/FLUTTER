@@ -84,7 +84,7 @@ class _SlideFadeDemoState extends State<SlideFadeDemo>
           // opacity goes from 0 → 1 → 0 repeatedly (handled by controller)
           opacity: _fadeController,
           // The widget being animated — Flutter logo
-          child: const FlutterLogo(size: 120),
+          child: const FlutterLogo(size: 150),
         ),
       ),
     );
