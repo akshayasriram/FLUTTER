@@ -31,10 +31,10 @@ class TestResultsPage extends StatelessWidget {
       assert(1 + 1 == 2);
 
       // If no error occurs, test passes.
-      results.add('Basic math test: PASS');
+      results.add('Basic math test is: PASS');
     } catch (_) {
       // If the assertion fails, we catch it and mark test as FAIL.
-      results.add('Basic math test: FAIL');
+      results.add('Basic math test is: FAIL');
     }
 
     // 🧱 Test 2: Simple smoke test (checks if widget can be created)
