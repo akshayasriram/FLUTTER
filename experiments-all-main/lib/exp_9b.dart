@@ -37,13 +37,13 @@ class ApiPage extends StatelessWidget {
                 children: [
                   const Text(
                     'Failed to load posts',
-                    style: TextStyle(fontSize: 16),
+                    style: TextStyle(fontSize: 17),
                   ),
                   const SizedBox(height: 8), // Adds small vertical spacing
                   // Display the error details (for debugging or user info)
                   Text(snapshot.error.toString()),
 
-                  const SizedBox(height: 12),
+                  const SizedBox(height: 13),
 
                   // Button to retry fetching data by reloading the widget
                   ElevatedButton(
