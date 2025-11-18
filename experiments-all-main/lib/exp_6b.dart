@@ -39,7 +39,7 @@ final ThemeData appTheme = ThemeData(
   // This applies default styling to every Card in the app.
   cardTheme: CardThemeData(
     // Rounded corners for a softer look
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
     // Adds a soft drop shadow effect under cards
     elevation: 4,
   ),
