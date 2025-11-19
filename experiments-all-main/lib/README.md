@@ -2,7 +2,7 @@
 
 Aim:
 To create a basic Flutter app and understand fundamental widgets like Text, Container, Icon, Row, Column.
-
+ 
 Learning:
 Project setup, hot reload, widget tree.
 
